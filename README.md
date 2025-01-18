@@ -5,7 +5,7 @@
 
 This is the official code repository for "[VM-UNet: Vision Mamba UNet for Medical Image Segmentation](https://ieeexplore.ieee.org/abstract/document/10780733)". 
 
-**Abstract** </br>
+**1. Abstract** </br>
 In the field of medical image segmentation, the
 Ushape architecture model has been widely explored. Recently,
 a novel architecture called Mamba, based on the State Space
@@ -31,7 +31,7 @@ various performance metrics and exhibits strong competitiveness
 compared to other classic segmentation models based on Ushape
 architecture.
 
-**Main Environments.** </br>
+**2. Main Environments.** </br>
 The environment installation procedure can be followed the steps below (python=3.10):</br>
 
 ```
@@ -48,12 +48,12 @@ pip install mamba_ssm
 pip install scikit-learn matplotlib thop h5py SimpleITK scikit-image medpy yacs
 ```
 
-**Datasets.** </br>
+**3. Datasets.** </br>
 We utilized the open-source liver dataset LiTS2017, selecting 613 large-area liver CT images randomly. These images were divided into training and testing sets in an 8 : 2 ratio.
 
 You can download our dataset in this repository.
 
-**Train the GM-UNet** </br>
+**4. Train the GM-UNet** </br>
 You can try using the model in `GM-UNet.py`.
 
 ## Acknowledgement
