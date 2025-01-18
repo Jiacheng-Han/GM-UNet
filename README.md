@@ -1,9 +1,9 @@
 <div align="center">
-<h1>CFM-UNet </h1>
-<h3>Coupling Local and Global Feature Extraction Networks for Medical Image Segmentation Models</h3>
+<h1>GM-UNet</h1>
+<h3>GAN-based VM-UNet Achieves Higher Accuracy</h3>
 </div>
 
-This is the official code repository for "[VM-UNet: Vision Mamba UNet for Medical Image Segmentation](https://ieeexplore.ieee.org/abstract/document/10780733)". 
+This is the official code repository for "GM-UNet: GAN-based VM-UNet Achieves Higher Accuracy" [url](https://ieeexplore.ieee.org/abstract/document/10780733). 
 
 **1. Abstract** </br>
 In the field of medical image segmentation, the
