@@ -3,7 +3,7 @@
 <h3>GAN-based VM-UNet Achieves Higher Accuracy</h3>
 </div>
 
-This is the official code repository for "GM-UNet: GAN-based VM-UNet Achieves Higher Accuracy" [url](https://ieeexplore.ieee.org/abstract/document/10780733). 
+This is the official code repository for "GM-UNet: GAN-based VM-UNet Achieves Higher Accuracy" [paper](https://ieeexplore.ieee.org/abstract/document/10780733). 
 
 **1. Abstract** </br>
 In the field of medical image segmentation, the
@@ -31,7 +31,7 @@ various performance metrics and exhibits strong competitiveness
 compared to other classic segmentation models based on Ushape
 architecture.
 
-**2. Main Environments.** </br>
+**2. Main Environments** </br>
 The environment installation procedure can be followed the steps below (python=3.10):</br>
 
 ```
@@ -48,12 +48,12 @@ pip install mamba_ssm
 pip install scikit-learn matplotlib thop h5py SimpleITK scikit-image medpy yacs
 ```
 
-**3. Datasets.** </br>
+**3. Datasets** </br>
 We utilized the open-source liver dataset LiTS2017, selecting 613 large-area liver CT images randomly. These images were divided into training and testing sets in an 8 : 2 ratio.
 
 You can download our dataset in this repository.
 
-**4. Train the GM-UNet** </br>
+**4. Train Your GM-UNet** </br>
 You can try using the model in `GM-UNet.py`.
 
 ## Acknowledgement
